@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC4746CD278C96BA002FCE7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4746CC278C96BA002FCE7F /* AppDelegate.swift */; };
+		EC4746CF278C96BA002FCE7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4746CE278C96BA002FCE7F /* SceneDelegate.swift */; };
+		EC4746D1278C96BA002FCE7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4746D0278C96BA002FCE7F /* ViewController.swift */; };
+		EC4746D4278C96BA002FCE7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4746D2278C96BA002FCE7F /* Main.storyboard */; };
+		EC4746D7278C96BA002FCE7F /* Comvine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC4746D5278C96BA002FCE7F /* Comvine.xcdatamodeld */; };
+		EC4746D9278C96BC002FCE7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4746D8278C96BC002FCE7F /* Assets.xcassets */; };
+		EC4746DC278C96BC002FCE7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4746DA278C96BC002FCE7F /* LaunchScreen.storyboard */; };
+		EC4746E7278C96BC002FCE7F /* ComvineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4746E6278C96BC002FCE7F /* ComvineTests.swift */; };
+		EC4746F1278C96BC002FCE7F /* ComvineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4746F0278C96BC002FCE7F /* ComvineUITests.swift */; };
+		EC4746F3278C96BC002FCE7F /* ComvineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4746F2278C96BC002FCE7F /* ComvineUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC4746E3278C96BC002FCE7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC4746C1278C96BA002FCE7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC4746C8278C96BA002FCE7F;
+			remoteInfo = Comvine;
+		};
+		EC4746ED278C96BC002FCE7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC4746C1278C96BA002FCE7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC4746C8278C96BA002FCE7F;
+			remoteInfo = Comvine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC4746C9278C96BA002FCE7F /* Comvine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Comvine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4746CC278C96BA002FCE7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC4746CE278C96BA002FCE7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC4746D0278C96BA002FCE7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC4746D3278C96BA002FCE7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC4746D6278C96BA002FCE7F /* Comvine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Comvine.xcdatamodel; sourceTree = "<group>"; };
+		EC4746D8278C96BC002FCE7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC4746DB278C96BC002FCE7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC4746DD278C96BC002FCE7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC4746E2278C96BC002FCE7F /* ComvineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComvineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4746E6278C96BC002FCE7F /* ComvineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComvineTests.swift; sourceTree = "<group>"; };
+		EC4746EC278C96BC002FCE7F /* ComvineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComvineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4746F0278C96BC002FCE7F /* ComvineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComvineUITests.swift; sourceTree = "<group>"; };
+		EC4746F2278C96BC002FCE7F /* ComvineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComvineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC4746C6278C96BA002FCE7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4746DF278C96BC002FCE7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4746E9278C96BC002FCE7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC4746C0278C96BA002FCE7F = {
+			isa = PBXGroup;
+			children = (
+				EC4746CB278C96BA002FCE7F /* Comvine */,
+				EC4746E5278C96BC002FCE7F /* ComvineTests */,
+				EC4746EF278C96BC002FCE7F /* ComvineUITests */,
+				EC4746CA278C96BA002FCE7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC4746CA278C96BA002FCE7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC4746C9278C96BA002FCE7F /* Comvine.app */,
+				EC4746E2278C96BC002FCE7F /* ComvineTests.xctest */,
+				EC4746EC278C96BC002FCE7F /* ComvineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC4746CB278C96BA002FCE7F /* Comvine */ = {
+			isa = PBXGroup;
+			children = (
+				EC4746CC278C96BA002FCE7F /* AppDelegate.swift */,
+				EC4746CE278C96BA002FCE7F /* SceneDelegate.swift */,
+				EC4746D0278C96BA002FCE7F /* ViewController.swift */,
+				EC4746D2278C96BA002FCE7F /* Main.storyboard */,
+				EC4746D8278C96BC002FCE7F /* Assets.xcassets */,
+				EC4746DA278C96BC002FCE7F /* LaunchScreen.storyboard */,
+				EC4746DD278C96BC002FCE7F /* Info.plist */,
+				EC4746D5278C96BA002FCE7F /* Comvine.xcdatamodeld */,
+			);
+			path = Comvine;
+			sourceTree = "<group>";
+		};
+		EC4746E5278C96BC002FCE7F /* ComvineTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC4746E6278C96BC002FCE7F /* ComvineTests.swift */,
+			);
+			path = ComvineTests;
+			sourceTree = "<group>";
+		};
+		EC4746EF278C96BC002FCE7F /* ComvineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC4746F0278C96BC002FCE7F /* ComvineUITests.swift */,
+				EC4746F2278C96BC002FCE7F /* ComvineUITestsLaunchTests.swift */,
+			);
+			path = ComvineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC4746C8278C96BA002FCE7F /* Comvine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4746F6278C96BC002FCE7F /* Build configuration list for PBXNativeTarget "Comvine" */;
+			buildPhases = (
+				EC4746C5278C96BA002FCE7F /* Sources */,
+				EC4746C6278C96BA002FCE7F /* Frameworks */,
+				EC4746C7278C96BA002FCE7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Comvine;
+			productName = Comvine;
+			productReference = EC4746C9278C96BA002FCE7F /* Comvine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC4746E1278C96BC002FCE7F /* ComvineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4746F9278C96BC002FCE7F /* Build configuration list for PBXNativeTarget "ComvineTests" */;
+			buildPhases = (
+				EC4746DE278C96BC002FCE7F /* Sources */,
+				EC4746DF278C96BC002FCE7F /* Frameworks */,
+				EC4746E0278C96BC002FCE7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC4746E4278C96BC002FCE7F /* PBXTargetDependency */,
+			);
+			name = ComvineTests;
+			productName = ComvineTests;
+			productReference = EC4746E2278C96BC002FCE7F /* ComvineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC4746EB278C96BC002FCE7F /* ComvineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4746FC278C96BC002FCE7F /* Build configuration list for PBXNativeTarget "ComvineUITests" */;
+			buildPhases = (
+				EC4746E8278C96BC002FCE7F /* Sources */,
+				EC4746E9278C96BC002FCE7F /* Frameworks */,
+				EC4746EA278C96BC002FCE7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC4746EE278C96BC002FCE7F /* PBXTargetDependency */,
+			);
+			name = ComvineUITests;
+			productName = ComvineUITests;
+			productReference = EC4746EC278C96BC002FCE7F /* ComvineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC4746C1278C96BA002FCE7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EC4746C8278C96BA002FCE7F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EC4746E1278C96BC002FCE7F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EC4746C8278C96BA002FCE7F;
+					};
+					EC4746EB278C96BC002FCE7F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EC4746C8278C96BA002FCE7F;
+					};
+				};
+			};
+			buildConfigurationList = EC4746C4278C96BA002FCE7F /* Build configuration list for PBXProject "Comvine" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC4746C0278C96BA002FCE7F;
+			productRefGroup = EC4746CA278C96BA002FCE7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC4746C8278C96BA002FCE7F /* Comvine */,
+				EC4746E1278C96BC002FCE7F /* ComvineTests */,
+				EC4746EB278C96BC002FCE7F /* ComvineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC4746C7278C96BA002FCE7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4746DC278C96BC002FCE7F /* LaunchScreen.storyboard in Resources */,
+				EC4746D9278C96BC002FCE7F /* Assets.xcassets in Resources */,
+				EC4746D4278C96BA002FCE7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4746E0278C96BC002FCE7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4746EA278C96BC002FCE7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC4746C5278C96BA002FCE7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4746D1278C96BA002FCE7F /* ViewController.swift in Sources */,
+				EC4746D7278C96BA002FCE7F /* Comvine.xcdatamodeld in Sources */,
+				EC4746CD278C96BA002FCE7F /* AppDelegate.swift in Sources */,
+				EC4746CF278C96BA002FCE7F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4746DE278C96BC002FCE7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4746E7278C96BC002FCE7F /* ComvineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4746E8278C96BC002FCE7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4746F3278C96BC002FCE7F /* ComvineUITestsLaunchTests.swift in Sources */,
+				EC4746F1278C96BC002FCE7F /* ComvineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC4746E4278C96BC002FCE7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC4746C8278C96BA002FCE7F /* Comvine */;
+			targetProxy = EC4746E3278C96BC002FCE7F /* PBXContainerItemProxy */;
+		};
+		EC4746EE278C96BC002FCE7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC4746C8278C96BA002FCE7F /* Comvine */;
+			targetProxy = EC4746ED278C96BC002FCE7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC4746D2278C96BA002FCE7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC4746D3278C96BA002FCE7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC4746DA278C96BC002FCE7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC4746DB278C96BC002FCE7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC4746F4278C96BC002FCE7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC4746F5278C96BC002FCE7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC4746F7278C96BC002FCE7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KE3BN75Y9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Comvine/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gustavoA.Comvine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC4746F8278C96BC002FCE7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KE3BN75Y9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Comvine/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gustavoA.Comvine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC4746FA278C96BC002FCE7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KE3BN75Y9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gustavoA.ComvineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Comvine.app/Comvine";
+			};
+			name = Debug;
+		};
+		EC4746FB278C96BC002FCE7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KE3BN75Y9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gustavoA.ComvineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Comvine.app/Comvine";
+			};
+			name = Release;
+		};
+		EC4746FD278C96BC002FCE7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KE3BN75Y9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gustavoA.ComvineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Comvine;
+			};
+			name = Debug;
+		};
+		EC4746FE278C96BC002FCE7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KE3BN75Y9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gustavoA.ComvineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Comvine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC4746C4278C96BA002FCE7F /* Build configuration list for PBXProject "Comvine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4746F4278C96BC002FCE7F /* Debug */,
+				EC4746F5278C96BC002FCE7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4746F6278C96BC002FCE7F /* Build configuration list for PBXNativeTarget "Comvine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4746F7278C96BC002FCE7F /* Debug */,
+				EC4746F8278C96BC002FCE7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4746F9278C96BC002FCE7F /* Build configuration list for PBXNativeTarget "ComvineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4746FA278C96BC002FCE7F /* Debug */,
+				EC4746FB278C96BC002FCE7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4746FC278C96BC002FCE7F /* Build configuration list for PBXNativeTarget "ComvineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4746FD278C96BC002FCE7F /* Debug */,
+				EC4746FE278C96BC002FCE7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC4746D5278C96BA002FCE7F /* Comvine.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC4746D6278C96BA002FCE7F /* Comvine.xcdatamodel */,
+			);
+			currentVersion = EC4746D6278C96BA002FCE7F /* Comvine.xcdatamodel */;
+			path = Comvine.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC4746C1278C96BA002FCE7F /* Project object */;
+}
