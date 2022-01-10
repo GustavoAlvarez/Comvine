@@ -1,6 +1,3 @@
-# Comvine
-Compare travel prices
-
 # Privacy Policy
 
 Last updated: January 10, 2022
